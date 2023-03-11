@@ -5,7 +5,7 @@ RUN apt-get update -qq \
 
 ADD . /Rails-Docker
 WORKDIR /Rails-Docker
-RUN bundle install
+#RUN bundle install
 
 EXPOSE 3000
 
